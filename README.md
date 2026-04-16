@@ -1,15 +1,60 @@
-CRUD de produtos - Grupo btz
+<section class="apresentacao">
 
-Ao acessar o sistema, você encontrará um menu de navegação na parte superior da tela. Através dele, é possível acessar todas as funcionalidades disponíveis.
+  <h1>📦 Sistema de Cadastro de Produtos - Grupo BTZ</h1>
 
-Na opção “Cadastrar produtos”, você poderá adicionar novos itens ao sistema. Basta preencher os campos obrigatórios, como nome, descrição, preço e quantidade, e confirmar o envio. O sistema realiza validações automaticamente para garantir que todas as informações sejam inseridas corretamente.
+  <p>
+    Bem-vindo ao sistema de <strong>gerenciamento de produtos</strong> do Grupo BTZ.
+  </p>
 
-Em “Visualizar produtos”, você terá acesso a uma tabela completa com todos os itens cadastrados. Nessa tela, é possível acompanhar as informações de forma clara e organizada.
+  <p>
+    Este projeto foi desenvolvido com o objetivo de facilitar o controle,
+    organização e manutenção de produtos de forma prática e eficiente.
+  </p>
 
-Caso seja necessário realizar alterações, basta clicar no botão “Editar”, onde um formulário será exibido em formato de janela (modal), permitindo atualizar os dados de maneira prática e rápida.
+  <h2>📌 Funcionalidades</h2>
 
-Para remover um produto, utilize o botão “Excluir”. O sistema solicitará uma confirmação antes da exclusão, garantindo maior segurança e evitando a remoção acidental de dados importantes.
+  <ul>
+    <li>✔ Cadastro de novos produtos</li>
+    <li>✔ Listagem completa dos produtos</li>
+    <li>✔ Edição rápida via modal</li>
+    <li>✔ Exclusão com confirmação</li>
+    <li>✔ Validação de campos obrigatórios</li>
+    <li>✔ Layout responsivo (desktop e mobile)</li>
+  </ul>
 
-Além disso, o sistema conta com um layout responsivo, adaptando-se automaticamente a diferentes tamanhos de tela, como celulares, tablets e computadores, proporcionando uma experiência consistente em qualquer dispositivo.
+  <h2>⚙️ Como utilizar</h2>
 
-Com essas funcionalidades, o sistema BTZ oferece um controle completo do cadastro de produtos, unindo praticidade, organização e segurança em um único ambiente.
+  <ul>
+    <li>Acesse o menu superior para navegar entre as funcionalidades</li>
+    <li>Utilize <strong>Cadastrar</strong> para adicionar novos produtos</li>
+    <li>Em <strong>Produtos</strong>, visualize e gerencie os registros</li>
+    <li>Clique em <strong>Editar</strong> para atualizar informações</li>
+    <li>Use <strong>Excluir</strong> para remover produtos com segurança</li>
+  </ul>
+
+  <h2>🛠 Tecnologias utilizadas</h2>
+
+  <table>
+    <tr>
+      <th>Categoria</th>
+      <th>Tecnologias</th>
+    </tr>
+    <tr>
+      <td><strong>Frontend</strong></td>
+      <td>HTML, CSS, JavaScript</td>
+    </tr>
+    <tr>
+      <td><strong>Backend</strong></td>
+      <td>PHP</td>
+    </tr>
+    <tr>
+      <td><strong>Banco de Dados</strong></td>
+      <td>MySQL</td>
+    </tr>
+    <tr>
+      <td><strong>Envio de Email</strong></td>
+      <td>PHPMailer</td>
+    </tr>
+  </table>
+
+</section>
