@@ -1,0 +1,146 @@
+
+/* Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  padding-top: 70px;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  z-index: 1000;
+}
+
+.logo img {
+  width: 70px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #000;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-links a:hover {
+  color: #181f88;
+}
+
+.container {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #181f88, #0a0f11);
+  padding: 20px;
+}
+
+/* Formulário */
+.form-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.form-box h2 {
+  margin-bottom: 20px;
+  color: #181f88;
+  text-align: center;
+}
+
+.form-box label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.form-box input,
+.form-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-box button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #181f88;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background: #851212;
+}
+
+/* Mensagem */
+.mensagem {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.menu-toggle {
+  display: none !important;;
+}
+/* Responsivo */
+@media (max-width: 768px) {
+  
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 200px;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 20px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .menu-toggle {
+  color: #000;
+  }
+
+  .form-box {
+    padding: 25px;
+  }
+}

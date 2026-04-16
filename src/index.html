@@ -1,2 +1,65 @@
 <!DOCTYPE html>
-<h1>Vou passar na entrevista do btz pfvvv</h1>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="shortcut icon" href="images/grupo-btz-log.png" type="image/x-icon">
+
+  <title>Grupo BTZ</title>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/grupo-btz-log.png" alt="Logo Grupo BTZ">
+    </div>
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links">
+      <li><a href="cadastro.php">Cadastrar novos produtos</a></li>
+      <li><a href="lista.php">Visualizar produtos</a></li>
+      <li><a href="contato.php">contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="inicio" class="hero">
+
+      <div class="content">
+        <h1>Bem-vindo(a) ao sistema de cadastramento de produtos do Grupo BTZ.</h1>
+
+        <p>
+          Esta plataforma foi desenvolvida com o objetivo de facilitar o controle,
+          organização e manutenção do cadastro de produtos de forma prática e eficiente.
+        </p>
+
+        <p>
+          Através deste sistema, é possível realizar operações completas de CRUD
+          (Create, Read, Update e Delete)
+        </p>
+
+        <a href="#cadastro" class="acesso-cadastro">
+          <span>Cadastrar produtos</span>
+        </a>
+      </div>
+      <div class="imagem-flutuante">
+        <img src="images/produto.png" alt="Produto">
+      </div>
+
+    </section>
+  </main>
+
+<footer>
+  Grupo BTZ &copy; <?php echo date("Y"); ?> - Todos os direitos reservados
+</footer>
+<script>
+function toggleMenu() {
+  document.querySelector('.nav-links').classList.toggle('active');
+}
+</script>
+</body>
+</html>

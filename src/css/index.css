@@ -1,0 +1,201 @@
+/* Base */
+html { scroll-behavior: smooth; }
+
+@font-face {
+  font-family: 'tan pearl';
+  src: url('../fonte/fonnts.com-tan-pearl.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  padding-top: 70px;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  z-index: 1000;
+}
+
+.logo img {
+  width: 70px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #000;
+  text-decoration: none;
+  font-size: 17px;
+  transition: .3s;
+}
+
+.nav-links a:hover {
+  color: #181f88;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  color: white;
+}
+
+/* Fundo preenchendo tudo */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #181f88, #0a0f11);
+  z-index: 0;
+}
+
+/* Conteúdo */
+.content {
+  position: relative;
+  z-index: 2;
+  margin-left: 100px;
+  max-width: 780px;
+}
+
+.content h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  font-family: 'tan pearl', Arial, sans-serif;
+}
+
+.content p {
+  font-size: 17.6px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Botão */
+.acesso-cadastro {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #181f88;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.acesso-cadastro:hover {
+  background: #851212;
+}
+
+/* Imagem flutuante */
+.imagem-flutuante {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.imagem-flutuante img {
+  width: 50vw;
+  max-width: 1000px;
+  min-width: 300px;
+  animation: float 4s ease-in-out infinite;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+.menu-toggle {
+  display: none;
+}
+/* Animação */
+@keyframes float {
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 200px;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 20px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .menu-toggle {
+  color: #000;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+
+  .content h1 {
+    font-size: 26px;
+  }
+
+  .content p {
+    font-size: 15px;
+  }
+
+  .imagem-flutuante {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+  }
+
+  .imagem-flutuante img {
+    width: 220px;
+  }
+}
