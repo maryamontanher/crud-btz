@@ -14,12 +14,12 @@
   <h2> Funcionalidades:</h2>
 
   <ul>
-    <li>✔ Cadastro de novos produtos</li>
-    <li>✔ Listagem completa dos produtos</li>
-    <li>✔ Edição rápida via modal</li>
-    <li>✔ Exclusão com confirmação</li>
-    <li>✔ Validação de campos obrigatórios</li>
-    <li>✔ Layout responsivo (desktop e mobile)</li>
+    <li> Cadastro de novos produtos</li>
+    <li> Listagem completa dos produtos</li>
+    <li> Edição  via modal</li>
+    <li>Exclusão com confirmação</li>
+    <li>Validação de campos obrigatórios</li>
+    <li>Layout responsivo (desktop e mobile)</li>
   </ul>
 
   <h2>Como utilizar:</h2>
