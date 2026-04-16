@@ -1,6 +1,4 @@
-#crud-btz
-O sistema de gerenciamento de produtos do Grupo BTZ foi desenvolvido para oferecer uma experiência simples, rápida e eficiente no controle de cadastros. A plataforma permite que você realize todas as operações essenciais de forma organizada e intuitiva, mesmo sem conhecimento técnico avançado.
-
+CRUD de produtos - Grupo btz
 Ao acessar o sistema, você encontrará um menu de navegação na parte superior da tela. Através dele, é possível acessar todas as funcionalidades disponíveis.
 
 Na opção “Cadastrar produtos”, você poderá adicionar novos itens ao sistema. Basta preencher os campos obrigatórios, como nome, descrição, preço e quantidade, e confirmar o envio. O sistema realiza validações automaticamente para garantir que todas as informações sejam inseridas corretamente.
