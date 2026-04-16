@@ -1,6 +1,6 @@
 <section class="apresentacao">
 
-  <h1>📦 Sistema de Cadastro de Produtos - Grupo BTZ</h1>
+  <h1> Sistema de Cadastro de Produtos - Grupo BTZ</h1>
 
   <p>
     Bem-vindo ao sistema de <strong>gerenciamento de produtos</strong> do Grupo BTZ.
@@ -11,7 +11,7 @@
     organização e manutenção de produtos de forma prática e eficiente.
   </p>
 
-  <h2>📌 Funcionalidades</h2>
+  <h2> Funcionalidades:</h2>
 
   <ul>
     <li>✔ Cadastro de novos produtos</li>
@@ -22,7 +22,7 @@
     <li>✔ Layout responsivo (desktop e mobile)</li>
   </ul>
 
-  <h2>⚙️ Como utilizar</h2>
+  <h2>Como utilizar:</h2>
 
   <ul>
     <li>Acesse o menu superior para navegar entre as funcionalidades</li>
@@ -32,7 +32,7 @@
     <li>Use <strong>Excluir</strong> para remover produtos com segurança</li>
   </ul>
 
-  <h2>🛠 Tecnologias utilizadas</h2>
+  <h2>Tecnologias utilizadas</h2>
 
   <table>
     <tr>
